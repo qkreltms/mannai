@@ -2,7 +2,7 @@
 
 ## Install
 
-npm i mannai
+```npm i mannai```
 
 ## Usage
 
