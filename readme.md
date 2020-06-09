@@ -1,21 +1,22 @@
-manNai - 만나이 계산 라이브러리
----
+## manNai - 만나이 계산 라이브러리
 
-Usage
----
-```manNai(new Date("1995-01-15"), new Date("2020-01-15")) // should be => 25```
+## Install
 
-```manNai(new Date("1995-02-15"), new Date("2020-01-15")) // should be => 24```
+npm i mannai
 
-```manNai(new Date("1995-01-15"), new Date("2020-01-14")) // should be => 24```
+## Usage
 
-```manNai(new Date("2021-01-01"), new Date("2020-01-01")) // should be => 0```
+`manNai(new Date("1995-01-15"), new Date("2020-01-15")) // should be => 25`
 
-```manNai(new Date("test")) // should be => NaN```
+`manNai(new Date("1995-02-15"), new Date("2020-01-15")) // should be => 24`
 
+`manNai(new Date("1995-01-15"), new Date("2020-01-14")) // should be => 24`
 
-Test
----
+`manNai(new Date("2021-01-01"), new Date("2020-01-01")) // should be => 0`
+
+`manNai(new Date("test")) // should be => NaN`
+
+## Test
 
 npm run test:c
 
