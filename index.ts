@@ -1,2 +1,2 @@
-import manNai from "./src/manNai";
-export default manNai;
+import mannai from "./src/mannai";
+export default mannai;
