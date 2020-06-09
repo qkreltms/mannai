@@ -1,0 +1,26 @@
+{
+  "name": "mannai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-typescript": "^7.10.1",
+    "typescript": "^3.9.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.3",
+    "jest": "^26.0.1"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "**/src/**/*.{js,ts}"
+    ]
+  },
+  "scripts": {
+    "test": "jest",
+    "test:c": "jest --coverage --watchAll"
+  },
+  "author": "",
+  "license": "ISC"
+}
